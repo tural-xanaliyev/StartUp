@@ -1,0 +1,154 @@
+.Navigation_container{
+    display: flex;
+    min-height: 100px;
+    width: 90%;
+    overflow: hidden;
+
+}
+
+.Navigation_Logo{
+    width: 12.6%;
+    background-color: var(--background-color-222429);
+}
+
+.Navigation_Content{
+    width: 90%;
+    display: flex;
+    padding-left: 40px;
+    padding-right: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Content_List>ul{
+    display: flex;
+    margin-left: 45px;
+}
+
+.Content_List>ul a{
+    padding: 25px 0;
+    margin-left: 25px;
+    margin-right: 5px;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--text-color-222429);
+    font-weight: var(--font-400);
+    transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+}
+
+.Content_List>ul a:hover{
+    color: var(--text-color-FFAA17);
+}
+
+.Content_Box{
+    display: flex;
+}
+.icons_box{
+    border-right: 1.5px solid #E0DFDF;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+}
+.icons_box>button>svg{
+    font-size: 26px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.icons_box>button>svg:last-child{
+    margin-right: 20px;
+}
+.Content_Box>button{
+    margin-left: 20px;
+    padding: 12px 40px;
+    background-color: var(--background-color-FFAA17);
+    color: var(--text-color-222429);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: var(--font-600);
+    letter-spacing: 0.6px;
+    transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+    cursor: pointer;
+}
+
+.Content_Box>button:hover{
+    /* background-color: var(--background-color-222429); */
+    color: var(--text-color-FFFFFF);
+    box-shadow: inset 200px 0 0 0 #222429;
+}
+
+.Search_container{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.Search_container>div{
+    padding: 80px;
+    background-color: var(--background-color-FFFFFF);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.close_boxe{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.close_boxe>div{
+    width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+.bar1{
+    transform:rotate(-45deg);
+}
+.bar2{
+    transform: translate(0, -11px) rotate(45deg);
+}
+
+.close_boxe:hover .bar1,
+.close_boxe:hover .bar2{
+    transform: rotate(45deg);
+}
+.Search_container>button>svg{
+    font-size: 26px;
+}
+
+.form_search>input{
+    width: 600px;
+    height: 55px;
+    padding-left: 1.5em;
+    padding-right: 4em;
+    font-size: 15px;
+    color: var(--text-color-eeeeee);
+    border: 1px solid #eee;
+    border-radius: 50px;
+    outline: none;
+    box-sizing: border-box;
+    transition: all ease-in-out 0.3s;
+
+}
+.form_search>input:focus{
+    border:1px solid black ;
+}
+.form_search{
+    position: relative;
+}
+.form_search>button{
+    width: 55px;
+    position: absolute;
+    right: 10px;
+    top: 19px;
+    cursor: pointer;
+}
+.form_search>button>svg{
+    font-size: 20px;
+    color: rgb(170,170,170)!important;
+}

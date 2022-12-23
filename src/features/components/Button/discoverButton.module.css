@@ -1,0 +1,16 @@
+.discover_button{
+    padding: 20px 60px;
+    background-color: var(--background-color-FFAA17);
+    color: var(--text-color-222429);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: var(--font-600);
+    letter-spacing: 0.6px;
+    transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+    cursor: pointer;
+}
+
+.discover_button:hover{
+    color: var(--text-color-FFFFFF);
+    box-shadow: inset 400px 0 0 0 #222429;
+}
