@@ -27,7 +27,7 @@ body {
   --background-color-CACBCF:#CACBCF;
   --background-color-FFAA17:#FFAA17;
   --background-color-FFAA17CC:#FFAA17CC;
-  --background-color-FFA100:#FFA100;
+  --background-color-FF6900:#ff6900;
   --background-color-AAAAAA:#AAAAAA;
   --background-color-00A0D2:#00A0D2;
   --background-color-383838:#383838;
@@ -73,4 +73,5 @@ a{
 button{
   border: none;
   background-color: transparent;
+  cursor: pointer;
 }
