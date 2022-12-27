@@ -3,7 +3,7 @@ import styles from './discoverButton.module.css'
 const Discoverbutton = () => {
   return (
     <button className={styles.discover_button}>
-        discover more
+        daha çox kəşf edin
     </button>
   )
 }

@@ -6,6 +6,8 @@ import img2 from './../../assets/jpg/2.jpg'
 import img3 from './../../assets/jpg/3jpg.jpg'
 import icon1 from './../../assets/png/group.png'
 import icon2 from './../../assets/png/idea.png'
+import { Link } from 'react-router-dom'
+import {FaLongArrowAltRight} from 'react-icons/fa'
 const HomeStart = () => {
     return (
         <section className={styles.HomeStart}>
@@ -54,7 +56,10 @@ const HomeStart = () => {
                             </div>
                             <Button />
                         </div>
-                        <div className={styles.element_container_right}></div>
+                        <div className={styles.element_container_right}>
+                            <h5>High Quality IT Solutions for Startup</h5>
+                            <Link>More <FaLongArrowAltRight/></Link>
+                        </div>
                     </div>
                 </div>
             </div>

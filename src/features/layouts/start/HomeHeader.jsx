@@ -9,7 +9,7 @@ const HomeHeader = () => {
                 <div></div>
                 <span>solutions for your businesses</span>
             </div>
-            <h1>IT Solutions & Technology</h1>
+            <h1>Lisenziyalı məhsulların satışı</h1>
             <p>There are many of passages of lorem Inpum,
                 but the majori have suffered alteration in some form
             </p>
