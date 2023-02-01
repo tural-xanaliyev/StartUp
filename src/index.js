@@ -10,6 +10,9 @@ import { BrowserRouter } from "react-router-dom";
 import { productSlice } from "./features/redux/productSlice";
 import { userSlice } from "./features/redux/usersSlice";
 import { AuthProvider } from "./AuthContext/AuthProvider";
+import them from "./them";
+import { ColorModeScript } from '@chakra-ui/react'
+
 const container = document.getElementById("root");
 const root = createRoot(container);
 
@@ -19,6 +22,7 @@ root.render(
   <BrowserRouter>
     <Provider store={store}>
       <AuthProvider>
+
       <App />
       </AuthProvider>
     </Provider>

@@ -1,13 +1,16 @@
-import { ChakraProvider } from "@chakra-ui/react";
+import { ChakraProvider, ColorModeScript } from "@chakra-ui/react";
 import React from "react";
-import ReactDom from 'react-dom'
+import them from "../them";
 import Dashboard from "./Dashboard";
 
 const App = () => {
   return (
+    <>
       <ChakraProvider>
-        <Dashboard />
+      <ColorModeScript initialColorMode={them.config.initialColorMode} />
+      <Dashboard />
       </ChakraProvider>
+    </>
   );
 };
 
