@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  padding: 0;
+}
+:root{
+  --font-400:400;
+  --font-500:500;
+  --font-600:600;
+  --font-700:700;
+  --background-color-FFFFFF:#FFFFFF;
+  --background-color-FFFFFF80:#FFFFFF80;
+  --background-color-FFFFFF1A:#FFFFFF1A;
+  --background-color-FFFFFF21:#FFFFFF21;
+  --background-color-FFFFFF4D:#FFFFFF4D;
+  --background-color-FFFFFFB3:#FFFFFFB3;
+  --background-color-FAFAFC:#FAFAFC;
+  --background-color-F8F8F8:#F8F8F8;
+  --background-color-F4F5F8:#F4F5F8;
+  --background-color-F5F5F5:#F5F5F5;
+  --background-color-F2F2F2:#F2F2F2;
+  --background-color-EEEEEE:#EEEEEE;
+  --background-color-E6E8ED:#E6E8ED;
+  --background-color-CACBCF:#CACBCF;
+  --background-color-FFAA17:#FFAA17;
+  --background-color-FFAA17CC:#FFAA17CC;
+  --background-color-FF6900:#ff6900;
+  --background-color-AAAAAA:#AAAAAA;
+  --background-color-00A0D2:#00A0D2;
+  --background-color-383838:#383838;
+  --background-color-2C2E33:#2C2E33;
+  --background-color-292A30:#292A30;
+  --background-color-222429:#222429;
+  --background-color-222222:#222222;
+  --background-color-000000B3:#000000B3;
+  --background-color-000000E6:#000000E6;
+  --background-color-0000001A:#0000001A;
+  --text-color-FFFFFF:#FFFFFF;
+  --text-color-FFFFFF99:#FFFFFF99;
+  --text-color-CFD2D4:#CFD2D4;
+  --text-color-D3CED2:#D3CED2;
+  --text-color-CCCCCC:#CCCCCC;
+  --text-color-FFAA17:#FFAA17;
+  --text-color-79BB51:#79BB51;
+  --text-color-AAAAAA:#AAAAAA;
+  --text-color-8C8F94:#8C8F94;
+  --text-color-878A8F:#878A8F;
+  --text-color-808287:#808287;
+  --text-color-767676:#767676;
+  --text-color-333333:#333333;
+  --text-color-352F27:#352F27;
+  --text-color-232331:#232331;
+  --text-color-222429:#222429;
+  --text-color-222222:#222222;
+  --text-color-000000:#000000;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+ul{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+}
+button{
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}

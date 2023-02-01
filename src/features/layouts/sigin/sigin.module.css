@@ -1,0 +1,17 @@
+.error{
+    color: #f2545b;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    position: absolute;
+    margin-top: -5px;
+}
+
+.errorInput{
+    border-color: #f2545b !important;
+}
+
+.errorInput:focus{
+    border-color: #f2545b !important;
+    box-shadow: 0 0 0 1px #f2545b !important;
+}

@@ -1,0 +1,31 @@
+.cart{
+    display: flex;
+    justify-content: flex-end;
+    height: 100vh;
+    background-color: rgba(17,17,17,0.9);
+}
+.cart>div{
+    background-color: white;
+}
+.cart_sidebar_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+    min-width: 400px;
+    background-color: var(--background-color-F5F5F5);
+}
+
+
+.top_close_btn {
+    width: 55px;
+    height:60px;
+    background-color: var(--background-color-FFAA17);
+}
+.cart_sidebar_header>h3{
+    margin-left: 30px;
+}
+.card_body{
+    margin-left: 30px;
+    color: rgb(128,130,135) !important;
+}
